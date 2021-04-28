@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Exo6 - jQuery</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+        @import url('https://fr.allfont.net/allfont.css?fonts=courier');
+
+        h1 {
+            background: rgb(9, 36, 93);
+            margin: 30px;
+            padding: 10px;
+            border: 4px solid #FBB13C;
+            color: #FBB13C;
+            font-size: 35px;
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        div {
+            font-family: 'Source Sans Pro', sans-serif;
+            text-transform: uppercase;
+        }
+
+        .dropdown {
+            margin-top: 20px;
+        }
+
+        .color {
+            float: left;
+            width: 20px;
+            height: 20px;
+            margin: 5px;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .hover1 {
+            color: green;
+        }
+
+        .hover2 {
+            color: red;
+        }
+
+        .hover3 {
+            color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Exercice 6 (Part2) - jQuery</h1>
+
+    <h2>Au passage de la souris sur un bouton de couleur, colorer le texte. Le texte doit redevenir noir quand la souris
+        quitte le bouton.</h2>
+
+    <div id="texte">
+        <p>
+            Tara, originellement nommée Antarctica puis Seamaster, est une goélette française destinée à la fois à
+            l'exploration et à la défense de l'environnement. Dans le cadre de l'Année polaire internationale, en
+            2007-2008, ce voilier est utilisé en Arctique par l'expédition Tara Arctic dans le but de faire des relevés
+            permettant de mieux comprendre les changements climatiques qui s'opèrent en Arctique. En 2009, dans le cadre
+            de l'expédition Tara Oceans, Tara parcourt les mers et les océans dans une circumnavigation de trois ans
+            afin d'étudier le piégeage des molécules de gaz carbonique (CO2) par les micro-organismes marins comme le
+            plancton. En avril 2016, une nouvelle expédition est montée Tara Pacific dont l'objectif est de comprendre
+            le corail, menacé par des facteurs humains et climatiques1.
+        </p>
+    </div>
+    <div>
+        <div class="color green" id="green"></div>
+        <div class="color red" id="red"></div>
+        <div class="color blue" id="blue"></div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
